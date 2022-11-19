@@ -1,0 +1,98 @@
+.main {
+  padding-left: 320px;
+  padding-right: 320px;
+  background-image: url("./images/bg-photo.jpg");
+  min-height: 100vh;
+}
+
+.logo{
+  margin: auto;
+  margin-right: 15px;
+  overflow: hidden;
+}
+
+
+.App-home {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.App-home h1 {
+  color: black;
+}
+
+.home-message {
+  margin-right: 50%;
+}
+
+nav {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 3.5rem;
+  background-color: var(--bg-color);
+  /* box-shadow: 0 3px 5px rgb(0 0 0 / 10%); */
+}
+.logo-container{
+  display: flex;
+}
+
+.btn-class{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.button {
+  -webkit-box-align: center;
+  align-items: center;
+  display: inline-flex;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  justify-content: center;
+  transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+  background-color: rgb(73, 204, 104);
+  color: rgb(255, 255, 255);
+  border-radius: 1.375rem;
+  font-size: 16px;
+  height: 2.75rem;
+  padding: 0px 1.25rem;
+  border: 0px;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-weight: 600;
+  outline: 0px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  margin: 10px;
+}
+
+.login-btn{
+  background-color: aliceblue;
+  color: black;
+  padding-left: 0.5rem;
+}
+.google-logo{
+  width: 35px;
+  padding-right: 5px;
+}
+.btn-anchor{
+  text-decoration: none;
+}
+
