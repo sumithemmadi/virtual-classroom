@@ -1,6 +1,6 @@
 import React from "react";
 
-const LoginForm = ({ isShowPopup }) => {
+const joiningClass = ({ isShowPopup }) => {
   return (
     <div className={`${isShowPopup ? "active" : ""} show`}>
       <div className="login-form">
@@ -23,4 +23,4 @@ const LoginForm = ({ isShowPopup }) => {
   );
 };
 
-export default LoginForm;
+export default joiningClass;
