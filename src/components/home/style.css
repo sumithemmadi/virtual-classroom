@@ -39,8 +39,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.5rem 3.5rem;
-  background-color: var(--bg-color);
+  padding: 0.2rem 2rem;
   /* box-shadow: 0 3px 5px rgb(0 0 0 / 10%); */
 }
 .logo-container{

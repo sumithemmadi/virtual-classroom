@@ -1,9 +1,10 @@
 
 import React from "react";
 import Home from "./components/home/home";
-import Login from "./components/login/login";
+import Dashboard from "./components/Dashboard/dashboard";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-// import { useGoogleLogin } from '@react-oauth/google';
+import Protected from './components/Protected';
+import { AuthContextProvider } from './context/AuthContext';
 
 
 export default function App() {
@@ -11,13 +12,25 @@ export default function App() {
     <Router>
       <div className="auth-wrapper">
         <div className="auth-inner">
-          <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route path="/login" element={<Login />} />
-            {/* <Route path="/register" element={<SignUp />} /> */}
-          </Routes>
+          <AuthContextProvider>
+            {/* <Navbar /> */}
+            <Routes>
+              <Route exact path="/" element={<Home />} />
+              {/* <Route path="/login" element={<Dashboard />} /> */}
+              <Route
+                path='/dashboard'
+                element={
+                  <Protected>
+                    <Dashboard />
+                  </Protected>
+                }
+              />
+            </Routes>
+          </AuthContextProvider>
         </div>
       </div>
     </Router>
   );
 }
+
+
