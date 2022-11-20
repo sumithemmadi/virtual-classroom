@@ -22,9 +22,7 @@
 }
 
 
-.App-home h1 {
-  color: black;
-}
+
 
 .home-message {
   margin-right: 50%;
@@ -93,6 +91,7 @@
   padding-right: 5px;
   border-radius: 360px;
 }
+
 .user-logo {
   width: 35px;
   padding-right: 5px;
