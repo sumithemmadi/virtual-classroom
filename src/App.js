@@ -1,11 +1,10 @@
 
 import React from "react";
-import Home from "./components/home/home";
-import Dashboard from "./components/Dashboard/dashboard";
+import Home from "./pages/home/home";
+import Dashboard from "./pages/Dashboard/dashboard";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Protected from './components/Protected';
 import { AuthContextProvider } from './context/AuthContext';
-
 
 export default function App() {
   return (
@@ -25,11 +24,19 @@ export default function App() {
                   </Protected>
                 }
               />
+              <Route
+                path='/create_classroom'
+                element={
+                  <Protected>
+                    <Dashboard />
+                  </Protected>
+                }
+              />
             </Routes>
           </AuthContextProvider>
         </div>
       </div>
-    </Router>
+    </Router >
   );
 }
 

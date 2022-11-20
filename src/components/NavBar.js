@@ -1,15 +1,15 @@
-import './style.css'
-import './popup.css'
+import './NavBar.css'
 import React from "react";
-import Logo from "../home/images/google-classroom-icon.svg";
-// import G_logo from "../home/images/icons8-google.svg";
-// import Popup from 'reactjs-popup';
-import 'reactjs-popup/dist/index.css';
+import Logo from "../pages/Dashboard/images/google-classroom-icon.svg";
 
+import { UserAuth } from '../context/AuthContext';
 
-import { UserAuth } from '../../context/AuthContext';
+const NavBar = () => {
+    // const [open, setOpen] = React.useState(false);
 
-const NavBar = ({ handlePopupClick }) => {
+    // const handleOpen = () => {
+    //     setOpen(!open);
+    // };
     const { logOut, user } = UserAuth();
 
     const handleSignOut = async () => {
@@ -19,18 +19,21 @@ const NavBar = ({ handlePopupClick }) => {
             console.log(error);
         }
     };
-    const handleClick = () => {
-        handlePopupClick();
-    };
+
     return (
-        <nav className='nav-bar'>
+        <nav className='navbar1'>
             <div className='logo-container'>
                 <img src={Logo} className="logo" alt="logo" height={40} width={40} />
                 <h1>VIRTUAL CLASSROOM</h1>
             </div>
             <div className='buttons'>
-                <button className="button login-btn1" onClick={handleClick}>+
-                </button>
+                <div className="dropdown">
+                    <button className="dropbtn button">+</button>
+                    <div className="dropdown-content">
+                        <a href='/join_classroom' >Join Classroom</a>
+                        <a href='/create_classroom'>Create Classroom</a>
+                    </div>
+                </div>
                 <button className="button login-btn" onClick={handleSignOut}>
                     <img src={user.photoURL} alt="person logo" className='user-logo' />
                     <span>LogOut from {user.email} </span>
