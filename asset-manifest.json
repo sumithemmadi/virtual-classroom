@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/virtual-classroom/static/css/main.1750c3e4.css",
+    "main.js": "/virtual-classroom/static/js/main.58a7faff.js",
+    "static/js/787.ce27abc6.chunk.js": "/virtual-classroom/static/js/787.ce27abc6.chunk.js",
+    "static/media/bg-photo.jpg": "/virtual-classroom/static/media/bg-photo.99463d0657f39118b48e.jpg",
+    "static/media/google-classroom-icon.svg": "/virtual-classroom/static/media/google-classroom-icon.fb506651f0563305f480912382876a6a.svg",
+    "static/media/icons8-google.svg": "/virtual-classroom/static/media/icons8-google.9a7800d06783d80a1c12249a8ca58e9d.svg",
+    "index.html": "/virtual-classroom/index.html",
+    "main.1750c3e4.css.map": "/virtual-classroom/static/css/main.1750c3e4.css.map",
+    "main.58a7faff.js.map": "/virtual-classroom/static/js/main.58a7faff.js.map",
+    "787.ce27abc6.chunk.js.map": "/virtual-classroom/static/js/787.ce27abc6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1750c3e4.css",
+    "static/js/main.58a7faff.js"
+  ]
+}
