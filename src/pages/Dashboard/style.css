@@ -21,7 +21,16 @@
   color: black;
 }
 
-
+.App-home1 {
+  display: flex;
+  background-image: url(./images/bg-photo.jpg);
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
 
 
 .home-message {

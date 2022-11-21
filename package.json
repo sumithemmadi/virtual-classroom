@@ -45,7 +45,6 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://sumithemmadi.github.io/virtual-classroom",
   "devDependencies": {
     "gh-pages": "^4.0.0",
     "react-router-dom": "^6.4.3"

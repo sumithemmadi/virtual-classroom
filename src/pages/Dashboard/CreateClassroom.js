@@ -14,7 +14,7 @@ const CreateClassroom = () => {
         <div className='d_main'>
             <div className='home_session'>
                 <NavBar />
-                <div className="App-home">
+                <div className="App-home1">
                     <form>
                         <div class="create-classroom-form-container">
                             <div>
