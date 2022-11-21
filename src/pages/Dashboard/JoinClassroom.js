@@ -25,6 +25,7 @@ const JoinClassroom = () => {
                                 <br></br>
                                 <input type="text" placeholder="Enter Classroom ID" className='input-field' name="classid" />
                                 <br></br>
+                                <br></br>
                             </div>
                             <div>
                                 <button type="submit" className='button'>Join</button>

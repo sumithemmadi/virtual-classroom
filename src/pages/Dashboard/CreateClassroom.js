@@ -24,18 +24,17 @@ const CreateClassroom = () => {
                                 <label>Classroom Name</label>
                                 <br></br>
                                 <input type="text" placeholder="Enter Classroom Name" className='input-field' name="classname" />
-                                <br></br>
                             </div>
                             <div>
                                 <label>Section</label>
                                 <br></br>
                                 <input type="text" placeholder="Section" className='input-field' name="section" />
-                                <br></br>
                             </div>
                             <div>
                                 <label>Subject</label>
                                 <br></br>
                                 <input type="text" placeholder="Enter Subject Name" className='input-field' name="subject" />
+                                <br></br>
                                 <br></br>
                             </div>
                             <div>
