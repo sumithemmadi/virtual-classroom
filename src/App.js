@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Protected from './components/Protected';
 import CreateClassroom from "./pages/Dashboard/CreateClassroom";
 import JoinClassroom from "./pages/Dashboard/JoinClassroom";
+import Class from "./pages/Dashboard/Class";
 import { AuthContextProvider } from './context/AuthContext';
 
 export default function App() {
@@ -37,6 +38,14 @@ export default function App() {
             element={
               <Protected>
                 <JoinClassroom />
+              </Protected>
+            }
+          />
+          <Route
+            path='/class/:id'
+            element={
+              <Protected>
+                <Class />
               </Protected>
             }
           />

@@ -27,7 +27,7 @@ const CreateClassroom = () => {
                                 <br></br>
                             </div>
                             <div>
-                                <label>Session</label>
+                                <label>Section</label>
                                 <br></br>
                                 <input type="text" placeholder="Section" className='input-field' name="section" />
                                 <br></br>
@@ -40,6 +40,7 @@ const CreateClassroom = () => {
                             </div>
                             <div>
                                 <button type="submit" className='button'>Submit</button>
+                                <a type="submit" href='/' style={{"background-color":"red","text-decoration":"none"}} className='button'>Cancel</a>
                             </div>
                         </div>
                     </form>

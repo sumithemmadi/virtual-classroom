@@ -25,7 +25,7 @@ const NavBar = () => {
             <div className='logo-container'>
                 <img src={Logo} className="logo" alt="logo" height={40} width={40} />
                 <h1>VIRTUAL CLASSROOM</h1>
-                <FontAwesomeIcon icon={["fa-solid","fa-house"]} />
+                <FontAwesomeIcon icon={["fa-solid", "fa-house"]} />
 
             </div>
             <div className='buttons'>

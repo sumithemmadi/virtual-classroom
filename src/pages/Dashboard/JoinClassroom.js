@@ -28,6 +28,8 @@ const JoinClassroom = () => {
                             </div>
                             <div>
                                 <button type="submit" className='button'>Join</button>
+                                <a type="submit" href='/' style={{ "background-color": "red", "text-decoration": "none" }} className='button'>Cancel</a>
+
                             </div>
                         </div>
                     </form>

@@ -1,7 +1,8 @@
 .main {
-  padding-left: 320px;
-  padding-right: 320px;
+  padding-left: 15%;
+  padding-right: 15%;
   background-image: url("./images/bg-photo.jpg");
+  background-size: 100% 100%;
   min-height: 100vh;
 }
 
