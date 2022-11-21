@@ -101,3 +101,43 @@
 .btn-anchor {
   text-decoration: none;
 }
+
+.create-classroom-form-container {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  width: auto;
+  margin: 5px;
+  border-radius: 6px;
+  margin: 10px;
+  box-shadow: 0px 2px 15px 2px #8b8eaf;
+  background-color: white;
+  padding: 40px;
+}
+
+
+.create-classroom-form-container label {
+  line-height: 2.7em;
+  font-weight: var(--bold-font);
+  color: black;
+}
+
+.create-classroom-form-container textarea {
+  font: 1em sans-serif;
+  min-height: 6.25rem;
+  font-size: 14px;
+}
+
+.create-classroom-form-container .input-field {
+  width: 500px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 20px;
+  border: none;
+  border: 1.6px solid ;
+  font-size: 0.875rem;
+  outline: none;
+}

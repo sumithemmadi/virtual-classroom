@@ -1,7 +1,7 @@
 import './NavBar.css'
 import React from "react";
 import Logo from "../pages/Dashboard/images/google-classroom-icon.svg";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { UserAuth } from '../context/AuthContext';
 
 const NavBar = () => {
@@ -25,6 +25,8 @@ const NavBar = () => {
             <div className='logo-container'>
                 <img src={Logo} className="logo" alt="logo" height={40} width={40} />
                 <h1>VIRTUAL CLASSROOM</h1>
+                <FontAwesomeIcon icon={["fa-solid","fa-house"]} />
+
             </div>
             <div className='buttons'>
                 <div className="dropdown">
